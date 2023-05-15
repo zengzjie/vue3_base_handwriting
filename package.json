@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node scripts/dev.js reactivity -f esm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.17.19",
+    "minimist": "^1.2.8",
+    "typescript": "^5.0.4",
+    "vue": "^3.3.2"
+  }
+}
